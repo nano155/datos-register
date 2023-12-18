@@ -1,0 +1,20 @@
+header{
+    background-color: rgb(0, 4, 132);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav-logo{
+    img{
+        width: 8rem;
+    }
+}
+
+.nav-icono-login {
+  svg {
+    color: white;
+  }
+}

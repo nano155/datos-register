@@ -1,0 +1,38 @@
+.form{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        background-color: rgb(74, 0, 74);
+        padding: 5rem;
+        border-radius: 8px;
+        font-size: 20px;
+        input{
+            width: 20rem;
+            padding: 0.5rem;
+        }
+    }
+}
+.buttons-form{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    .btn{
+        padding: 5px;
+        border: transparent;
+        width: 8rem;
+        border-radius: 6px;
+        font-weight: bold;
+    }
+    .btn-success{
+        background-color: #00cb44;
+    }
+    .btn-danger{
+        background-color: azure;
+        border: 2px solid red;
+    }
+}
