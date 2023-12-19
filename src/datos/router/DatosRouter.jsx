@@ -11,6 +11,7 @@ export const DatosRouter = () => {
     <NavBar/>
     <Routes>
         <Route path='/' element={<DatosPage/>}/>
+        <Route path='update/:id' element={<RegisterPage/>} />
         <Route path='register' element={<RegisterPage/>}/>
     </Routes>
     </>

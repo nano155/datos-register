@@ -1,5 +1,5 @@
 .form{
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
         flex-direction: column;
         gap: 0.5rem;
         background-color: rgb(74, 0, 74);
-        padding: 5rem;
+        padding: 4rem;
         border-radius: 8px;
         font-size: 20px;
         input{
@@ -21,18 +21,23 @@
     margin-top: 1.5rem;
     display: flex;
     justify-content: space-between;
-    .btn{
-        padding: 5px;
-        border: transparent;
-        width: 8rem;
-        border-radius: 6px;
-        font-weight: bold;
-    }
-    .btn-success{
-        background-color: #00cb44;
-    }
-    .btn-danger{
-        background-color: azure;
-        border: 2px solid red;
-    }
+}
+.btn{
+    cursor: pointer;
+    padding: 5px;
+    border: transparent;
+    width: 8rem;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.btn-success{
+    background-color: #00cb44;
+}
+.btn-danger{
+    background-color: azure;
+    border: 2px solid red;
+}
+.fullwidth{
+    margin-top: 2rem;
+    width: 100%;
 }

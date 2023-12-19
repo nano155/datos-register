@@ -35,7 +35,7 @@ header {
 }
 
 .form {
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,7 +45,7 @@ header {
   flex-direction: column;
   gap: 0.5rem;
   background-color: rgb(74, 0, 74);
-  padding: 5rem;
+  padding: 4rem;
   border-radius: 8px;
   font-size: 20px;
 }
@@ -59,19 +59,56 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.buttons-form .btn {
+
+.btn {
+  cursor: pointer;
   padding: 5px;
   border: transparent;
   width: 8rem;
   border-radius: 6px;
   font-weight: bold;
 }
-.buttons-form .btn-success {
+
+.btn-success {
   background-color: #00cb44;
 }
-.buttons-form .btn-danger {
+
+.btn-danger {
   background-color: azure;
   border: 2px solid red;
+}
+
+.fullwidth {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+.table th,
+.table td,
+.table tr {
+  font-size: 1rem;
+  padding: 5px;
+  border: 2px solid white;
+}
+.table a button {
+  background-color: #faad2f;
+  cursor: pointer;
+  padding: 5px;
+  border: transparent;
+  width: 8rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.table span {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
